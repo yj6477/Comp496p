@@ -36,6 +36,6 @@ public class htmlUnitTest {
 		// <-- End of your test code
 
 		driver.quit();
-		//Adding comments from anais lol		
+		//Adding comments from anais 		
 	}		
 }
