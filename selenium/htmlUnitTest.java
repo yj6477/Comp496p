@@ -26,6 +26,7 @@ public class htmlUnitTest {
 		Assert.assertFalse(pageSource.contains("404.html")); 
 		Assert.assertFalse(pageSource.contains("requested page could not be found")); 
 
+		//Adding extra comments here
 		// Create a test that is specific to YOUR Jekyll site here -->
 		String gitLink;
 		gitLink = driver.findElement(By.cssSelector(".username:first-of-type")).getText();
